@@ -3,4 +3,5 @@ This is an ratatype.com typing bot, with the help of this bot increase your high
 
 # Requirements:
 •	Download chrome driver
+
 •	Configure it to path
