@@ -4,8 +4,8 @@ import pyperclip
 import time
 # pyperclip to paste the content from the clipboard
 browser = webdriver.Chrome("path") #change this path to your chromedriver path
-username = 'email@example.com'#enter your email
-password = 'password' #enter your password
+username = '__email__' #enter your email
+password = '__password__' #enter your password
 browser.get('https://www.ratatype.com/login/')
 browser.find_element_by_id('email').send_keys(username)
 browser.find_element_by_id('password').send_keys(password)
