@@ -3,9 +3,9 @@ import pyautogui
 import pyperclip
 import time
 # pyperclip to paste the content from the clipboard
-browser = webdriver.Chrome("C:/Users/Aaditya/Downloads/chromedriver")#change this path to your chromedriver path
-username = 'viraro7099@era7mail.com'#enter your email
-password = 'python03' #enter your password
+browser = webdriver.Chrome("path") #change this path to your chromedriver path
+username = 'email@example.com'#enter your email
+password = 'password' #enter your password
 browser.get('https://www.ratatype.com/login/')
 browser.find_element_by_id('email').send_keys(username)
 browser.find_element_by_id('password').send_keys(password)
